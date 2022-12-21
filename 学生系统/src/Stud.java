@@ -3,11 +3,9 @@ import java.util.ArrayList;
 
 public class Stud implements Serializable {
     private String id;
-
     public ArrayList<Course> getCoursesList() {
         return coursesList;
     }
-
     public void setCoursesList(ArrayList<Course> coursesList) {
         this.coursesList = coursesList;
     }
